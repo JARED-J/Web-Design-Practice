@@ -64,6 +64,20 @@ body, html{
     text-transform:uppercase;
 }
 
+.ptext a{
+    color: #000;
+    text-decoration: none;
+    transition: border-shadow 1s ease-in;
+}
+
+.ptext a:hover{
+    color:#ddd;
+    background-color: #000;
+    text-decoration:none; 
+    cursor:pointer;  
+    border-shadow: 0px 0px 5px 5px #000000;
+}
+
 .ptext .border{
     background-color:#111;
     color:#fff;
